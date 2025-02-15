@@ -65,10 +65,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press &kp LSHIFT>,
-                <&macro_press &kp LCONTROL>;
+                <&macro_press>,
+                <&kp LSHIFT>,
+                <&kp LCONTROL>;
 
-            label = "change_lang";
+            label = "CHANGE_LANG";
         };
 
         ps: ps {
