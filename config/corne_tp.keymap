@@ -64,7 +64,12 @@
         change_lang: change_lang {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp LSHIFT &kp LCTRL>;
+            bindings =
+                <&macro_press>,
+                <&kp LSHIFT>,
+                <&macro_tap>,
+                <&kp LCTRL>,
+                <&macro_release>;
 
             label = "change_lang";
         };
