@@ -69,7 +69,8 @@
                 <&kp LSHIFT>,
                 <&macro_tap>,
                 <&kp LCTRL>,
-                <&macro_release>;
+                <&macro_release>,
+                <&macro_tap>;
 
             label = "change_lang";
         };
