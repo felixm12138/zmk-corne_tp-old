@@ -61,14 +61,14 @@
 
 / {
     macros {
-        change_lang: new_macro {
+        change_lang: change_lang {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
                 <&macro_press &kp LSHIFT>,
                 <&macro_press &kp LCONTROL>;
 
-            label = "NEW_MACRO";
+            label = "change_lang";
         };
 
         ps: ps {
@@ -143,4 +143,3 @@
         };
     };
 };
-
